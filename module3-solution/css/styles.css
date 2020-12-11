@@ -135,22 +135,11 @@ h4.menu-item-title {
 /* Extra small devices only*/
 @media (max-width: 767px) {
 	
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 20px;
-  }
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-  
-  #collapsable-nav a span {
-    font-size: 1em;
-    margin-right: 5px;
-  }
 
-
+.navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 7vw; /* 1vw = 1% of viewport width */
+  }
   #menu-tile, #specials-tile {
   	width: 260px;
     margin: 0 auto 15px;
@@ -174,7 +163,7 @@ h4.menu-item-title {
 	}
 	.navbar-brand h1 { /* Restaurant name */
 		padding-top: 10px;
-		font-size: 5vw; /* 1vw = 1% of viewport width */
+		font-size: 7vw; /* 1vw = 1% of viewport width */
 	}
 	
 	#collapsable-nav a span {
